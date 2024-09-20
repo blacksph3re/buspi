@@ -53,7 +53,7 @@ def main():
         print_to_lcd(departures, filter_state, backlight_state, lcd_instance)
       
       time.sleep(0.1)
-      if has_triggered() and time.time() - last_button_press > 0.3:
+      if has_triggered():
         if backlight_state == "on":
           filter_state = next(state_iter)
         print(f"Filter state {filter_state}")
