@@ -1,0 +1,1 @@
+This is a small raspberry pi which is displaying bus schedules on our shelf next to the door.
